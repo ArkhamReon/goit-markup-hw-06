@@ -152,7 +152,8 @@
     border-radius: 4px;
     background-color: var(--IRISH);
     color: var(--white);
-    /* box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1); */
+    border: none;
+    outline: none;
     cursor: pointer;
 }
 
@@ -340,12 +341,18 @@
 }
 
 .submit-btn{
+    background-color: var(--IRISH);
+    border: none;
+    outline: none;
    color:var(--white);
    font-family: 'Roboto';
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5em;
    letter-spacing: 0.64px;
+   cursor: pointer;
+   position: relative;
+   right: 10%;
    
   
    
@@ -654,6 +661,8 @@
     margin-left: 24px;
     padding: 8px 24px;
     border-radius: 4px;
+    border: none;
+    outline: none;
     color: var(--white);
     font-family: 'Roboto';
     font-size: 16px;
@@ -703,6 +712,7 @@
      letter-spacing: 0.64px;
      border: 1px solid var(--CLOUD);
      border-radius: 4px;
+     border: none;
      padding: 12px 24px;
    }
 
@@ -715,6 +725,7 @@
      letter-spacing: 0.64px;
      border: 1px solid var(--CLOUD);
      border-radius: 4px;
+     border: none;
      padding: 12px 24px;
    }
 
@@ -727,6 +738,7 @@
      letter-spacing: 0.64px;
      border: 1px solid var(--CLOUD);
      border-radius: 4px;
+     border: none;
      padding: 12px 24px;
    }
 
@@ -740,6 +752,7 @@
      border: 1px solid var(--CLOUD);
      border-radius: 4px;
      padding: 12px 24px;
+     border: none;
    }
 
    .all-btn{
@@ -747,6 +760,7 @@
      color: var(--white);
      padding: 12px 24px;
      border-radius: 4px;
+     border: none;
    }
 
    /* END PORTFOLIO BUTTON STYLING SECTION */
