@@ -27,6 +27,7 @@
 .link{
     text-decoration: none;
     color: var(--NAVYBLUE);
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5px;
@@ -138,13 +139,15 @@
 .hero-banner{
     text-align: center;
     color: var(--white);
+    font-family: 'Roboto';
     font-size: 56px;
     font-weight: 700;
     letter-spacing: 1.12px;
 }
 .hero-btn{
+    font-family: 'Roboto';
     font-size: 16px;
-    font-family: 500;
+    font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.64px;
     padding: 16px 32px;
@@ -375,6 +378,7 @@
 
 .caption{
     color: var(--NAVYBLUE);
+    font-family: 'Roboto';
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 8px;
@@ -386,6 +390,7 @@
 .caption-name{
     color: var(--SLATE);
     margin: 0px 0px;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
@@ -472,6 +477,7 @@
     .members-name{
         text-align: center;
         font-size: 20px;
+        font-family: 'Roboto';
         font-weight: 500;
         margin: 0;
         letter-spacing: 0.4px;
